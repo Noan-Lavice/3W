@@ -1,8 +1,4 @@
-// bme280.c
-// Capteur BME280 : température, humidité, pression.
-// Le capteur donne des valeurs "brutes". Pour avoir des °C, des % et des hPa, on utilise
-// les formules de la datasheet Bosch (section 8.1) avec des coefficients de calibration
-// enregistrés dans chaque capteur à l'usine.
+
 #include "config.h"
 #include "bme280.h"
 #include "i2c_bus.h"

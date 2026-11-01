@@ -1,4 +1,3 @@
-// bme280.h - Capteur BME280 (I2C, adresse 0x76) : température, humidité, pression
 #ifndef BME280_H
 #define BME280_H
 

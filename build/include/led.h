@@ -1,4 +1,3 @@
-// led.h - LED RGB Grove (puce P9813) : couleur du mode et clignotement des erreurs
 #ifndef LED_H
 #define LED_H
 

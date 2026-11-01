@@ -1,8 +1,4 @@
-// rtc_ds1307.c
-// Horloge RTC DS1307 (I2C, adresse 0x68). Elle a une pile : elle compte même carte éteinte.
-// La date est rangée dans 7 registres :
-//   0 secondes, 1 minutes, 2 heures, 3 jour de la semaine, 4 jour, 5 mois, 6 année (2 chiffres)
-// Les nombres sont en BCD : 45 est rangé 0x45 (le 4 à gauche, le 5 à droite).
+
 #include "config.h"
 #include "rtc_ds1307.h"
 #include "i2c_bus.h"

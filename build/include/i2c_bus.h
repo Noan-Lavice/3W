@@ -1,4 +1,3 @@
-// i2c_bus.h - Bus I2C1 (PB8 = SCL, PB9 = SDA), partagé par la RTC et le BME280
 #ifndef I2C_BUS_H
 #define I2C_BUS_H
 

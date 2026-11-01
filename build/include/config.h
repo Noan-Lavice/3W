@@ -1,16 +1,3 @@
-// config.h
-// Les broches et les réglages du projet
-//
-// Montage : NUCLEO-L476RG + shield SD + Grove Base Shield (interrupteur sur 3V3)
-//   Bouton rouge  -> D5 = PB4
-//   Bouton vert   -> D6 = PB10 (même module que le rouge, branché sur D5)
-//   LED RGB       -> D7 : CI = PA8, DI = PA9
-//   Luminosité    -> A0 = PA0
-//   RTC et BME280 -> I2C : SCL = PB8, SDA = PB9
-//   Console       -> câble USB (UART2 : PA2 et PA3), 115200 bauds
-//
-// On n'a pas de GPS, et la carte SD n'est pas câblée (il manque les 3 fils ICSP) :
-// l'enregistrement sur la carte SD est simulé, les lignes sont affichées dans la console.
 
 #ifndef CONFIG_H
 #define CONFIG_H

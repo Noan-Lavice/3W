@@ -1,5 +1,4 @@
-// console.h - Console série : l'UART2 passe par le câble USB jusqu'au PC (115200 bauds)
-// Après console_init(), printf() affiche le texte dans le moniteur série.
+
 #ifndef CONSOLE_H
 #define CONSOLE_H
 

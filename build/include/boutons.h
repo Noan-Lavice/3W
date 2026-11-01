@@ -1,4 +1,3 @@
-// boutons.h - Bouton rouge (D5 = PB4) et bouton vert (D6 = PB10)
 #ifndef BOUTONS_H
 #define BOUTONS_H
 

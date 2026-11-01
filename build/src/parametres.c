@@ -1,5 +1,4 @@
-// parametres.c
-// Les paramètres du sujet et les commandes du mode configuration.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -123,7 +122,7 @@ static int est_un_nombre(char texte[]) {
     int i = 0;
 
     if (texte[0] == '-') {
-        i = 1;   // Un signe moins au début est autorisé
+        i = 1;   
     }
     if (texte[i] == '\0') {
         return 0;   // Texte vide
@@ -143,7 +142,6 @@ static int est_un_nombre(char texte[]) {
 static void commande_clock(char texte[]) {
     int heure, minute, seconde;
 
-    // sscanf fait l'inverse de printf : il lit les nombres dans le texte
     if (sscanf(texte, "%d:%d:%d", &heure, &minute, &seconde) != 3) {
         printf("Format : CLOCK=HH:MM:SS\r\n");
         return;

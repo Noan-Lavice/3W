@@ -1,11 +1,8 @@
-// parametres.h - Les paramètres du sujet, réglables en mode configuration.
-// Ils sont gardés dans la Flash pour ne pas être perdus quand on éteint la carte
-// (le STM32L476 n'a pas d'EEPROM).
+
 #ifndef PARAMETRES_H
 #define PARAMETRES_H
 
-// Numéro enregistré dans la Flash avec les paramètres.
-// À changer si on ajoute ou enlève un paramètre : les valeurs par défaut seront remises.
+
 #define EEPROM_VERSION   4
 
 // Le numéro de chaque paramètre dans le tableau "parametre"
@@ -28,8 +25,7 @@ enum {
     NB_PARAMETRES    // Le nombre de paramètres (15)
 };
 
-// Table qui stocke les paramètres (gardée dans l'EEPROM, en vrai la Flash)
-// Ex : parametre[TIMEOUT] vaut 30
+
 extern int parametre[NB_PARAMETRES];
 
 void VerificationEEPROM(void);     // Au démarrage : relit la Flash, ou met les valeurs par défaut

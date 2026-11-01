@@ -4,8 +4,7 @@
 
 #include <stdint.h>
 
-// Fin de la RAM = endroit où la pile commence (valeur de départ de SP)
-// SRAM1 (64 Ko) + SRAM2 (32 Ko) = 96 Ko depuis 0x20000000 : 0x20000000 + 0x18000 = 0x20018000
+
 #define SRAM_END   0x20018000UL
 
 void     SystemClock_Config(void);   // Horloge à 80 MHz

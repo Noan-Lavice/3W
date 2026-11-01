@@ -1,8 +1,4 @@
-// capteurs.c
-// Fait une mesure complète de tous les capteurs, avec les règles du sujet :
-//  - un capteur qui ne répond pas avant TIMEOUT donne "NA"
-//  - après 2 mesures de suite sans réponse, la LED signale l'erreur capteur
-//  - une valeur en dehors des seuils MIN / MAX est signalée comme incohérente
+
 #include <stdio.h>
 #include <string.h>
 #include "config.h"

@@ -1,5 +1,3 @@
-// rtc_ds1307.h - Horloge RTC DS1307 (I2C, adresse 0x68) : date et heure, même carte éteinte
-// Toutes les fonctions renvoient 1 si ça a marché, 0 si l'horloge ne répond pas.
 #ifndef RTC_DS1307_H
 #define RTC_DS1307_H
 

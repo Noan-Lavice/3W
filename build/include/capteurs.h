@@ -1,4 +1,3 @@
-// capteurs.h - Une mesure complète : date, température, humidité, pression, luminosité
 #ifndef CAPTEURS_H
 #define CAPTEURS_H
 

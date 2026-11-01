@@ -1,7 +1,4 @@
-// luminosite.c
-// Capteur de luminosité sur A0 (PA0).
-// L'ADC (convertisseur analogique-numérique) transforme la tension en nombre :
-// en 10 bits, 0 V donne 0 et 3,3 V donne 1023.
+
 #include "stm32l4xx_hal.h"
 #include "luminosite.h"
 
